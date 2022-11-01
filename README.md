@@ -1,5 +1,7 @@
 # -Auto-Tracking-with-Spark-and-Redis
 
+Dataset: https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/
+
 
 In this spark project, we will embark on real-time data collection and aggregation from a simulated real-time system.
 
