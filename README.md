@@ -2,6 +2,13 @@
 
 Dataset: https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/
 
+Dataset
+==============
+The dataset for this project is freely available from the Microsoft website for research:
+https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/
+
+However, we have processed the data set to suit our need to simulate time-oriented data from different sources so you can freely download our consolidated version of the data here:
+https://drive.google.com/open?id=0B0MdkEsxQHAQYjFPTTVRTmZqTWc 
 
 In this spark project, we will embark on real-time data collection and aggregation from a simulated real-time system.
 
