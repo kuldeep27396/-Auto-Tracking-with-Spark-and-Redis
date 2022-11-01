@@ -1,0 +1,20 @@
+Redis vs Kafka
+=========================
+
+Redis
+	- in-memory datastore, a cache/persistent store and message broker.
+	- stores all messages in memory
+	- can hold various kinds of data structures - including strings (SDS), hashes, list, set, sorted set.
+	- support concepts of pipeline and transaction (Zookeeper)
+	- no message retention (when used as a messaging server)
+	- performance slows with size of message
+
+Kafka
+	- distibuted message broker
+	- stores data on disk
+	- holds streams of byte array
+	- support parallelism with partitions and replication within the clusters
+	- message retention
+	- performs better than redis with increasing size of message
+
+

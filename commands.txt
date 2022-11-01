@@ -1,0 +1,11 @@
+#to start the redis server
+/opt/redis-3.2.0/src/redis-server /opt/redis-3.2.0/redis.conf
+
+#to run the spark streaming app
+spark-submit --master yarn target/taxi-streaming-service-1.0-SNAPSHOT.jar TaxiSparkStreaming 250 localhost 4422
+
+#to run the flume agent
+flume-ng agent --name taxiFeedSimAgent --conf-file taxiFeedSimAgent-flume-agent.properties
+
+#start java swing app
+java jar target/TaxiLocator-1.0-SNAPSHOT.jar

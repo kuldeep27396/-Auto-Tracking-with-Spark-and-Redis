@@ -1,0 +1,7 @@
+wget http://download.redis.io/releases/redis-3.2.6.tar.gz
+tar xfvz redis-3.2.0.tar.gz
+mv redis-3.2.0/ /opt/
+cd /opt/redis-3.2.0
+make
+
+/opt/redis-3.2.0/src/redis-server /opt/redis-3.2.0/redis.conf
